@@ -13,7 +13,6 @@ const UserDataProvidersContext = ({ children }) => {
       setUser(data);
       setLoading(false);
       if (user) navigate("/chat");
-      console.log(user);
     });
   }, [user, navigate]);
 
